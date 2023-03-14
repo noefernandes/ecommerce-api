@@ -1,0 +1,13 @@
+### Salva produto
+
+POST  http://localhost:8080/api/product
+Content-Type: application/json
+
+{
+  "name": "Macarrão"
+}
+
+### Busca todos os produtos
+
+GET http://localhost:8080/api/products
+Content-Type: application/json
